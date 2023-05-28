@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnAppbarBot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_bar_bottom"/>
+
+    <Button
+        android:id="@+id/btnBotNavWithVP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom_nav_with_viewpager"/>
+
+    <Button
+        android:id="@+id/btnBotSheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_bot_sheet"/>
+
+    <Button
+        android:id="@+id/btnCollapsingToolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/collapsing_toolbar"/>
+
+    <Button
+        android:id="@+id/btnConstraintLo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/constraint_layout"/>
+
+    <Button
+        android:id="@+id/btnCoordinatorLo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/coordinator_layout"/>
+
+    <Button
+        android:id="@+id/btnNavView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/navigation_view"/>
+
+    <Button
+        android:id="@+id/btnOtherCommonUIE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/other_common_ui_element"/>
+
+</LinearLayout>

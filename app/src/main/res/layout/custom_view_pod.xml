@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.bottomnavigation.viewpods.ViewPodCustom
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/cornflower_blue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/tvHW"
+        android:textColor="@color/black"
+        android:text="@string/hello_world"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/iv1"
+        android:layout_alignTop="@+id/iv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_below="@+id/tvHW"
+        android:layout_alignStart="@+id/tvHW"
+        android:text="@string/padc_myanmar"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</com.example.bottomnavigation.viewpods.ViewPodCustom>
